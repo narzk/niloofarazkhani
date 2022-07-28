@@ -1,0 +1,35 @@
+
+@import '../typed.scss';
+
+.intro{
+height: 100vh;
+position: relative;
+display: flex;
+flex-direction: column;
+&__layer{
+    position: absolute;
+    height: 100vh;
+    width: 50%;
+    background-color: #ff3eaa;
+    opacity: 0.1;
+}
+&__name{
+    text-align: center;
+    padding-top: 10%;
+}
+}
+h1{
+    font-size: 56px;
+}
+h3{
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+    align-items: center;
+}
+.writing{
+    @include typed("Developer","PhD Student", "Technical Writer","Digital Painter");
+    color:#ff3eaa
+
+}

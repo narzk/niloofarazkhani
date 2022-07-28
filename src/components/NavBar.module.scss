@@ -1,0 +1,18 @@
+.NavBar {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 1rem;
+  &__right{
+      display: flex;
+      flex-direction: row;
+  }
+  &__logo{
+    width: 80px;
+    height: 80px;
+    z-index: 1;
+    border-radius: 100%;
+  }
+}

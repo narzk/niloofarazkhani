@@ -1,0 +1,21 @@
+.resume {
+  height: 100vh;
+  position: relative;
+  &__layer {
+    width: 30%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    & > ul {
+      position: absolute;
+      top: 50%;
+      left: 20%;
+    }
+  }
+  &__cards{
+    max-width: 65%;
+    float: right;
+    padding-right: 3%;
+  }
+}
