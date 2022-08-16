@@ -1,21 +1,23 @@
 .resume {
-  height: 100vh;
-  position: relative;
-  &__layer {
-    width: 30%;
-    height: 100%;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    & > ul {
-      position: absolute;
-      top: 50%;
-      left: 20%;
-    }
-  }
+  display: flex;
+  justify-content: center;
+  padding: 10px 80px;
+  
   &__cards{
-    max-width: 65%;
-    float: right;
-    padding-right: 3%;
+    width: 60vw;
+    
+  }
+  &__category{
+    color:#ff3eaa;
+    font-weight: 600;
+    font-size:xx-large;
+    margin-bottom: 50px;
+    margin-left: -40px;
+  }
+  &__skills{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
   }
 }

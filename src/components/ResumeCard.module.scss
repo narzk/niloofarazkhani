@@ -1,5 +1,8 @@
 .card{
     display: flex;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 24px;
     &__bullet{
         width:2.5rem;
         height: 2.5rem;

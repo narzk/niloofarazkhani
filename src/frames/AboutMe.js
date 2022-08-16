@@ -1,12 +1,13 @@
 import style from "./AboutMe.module.scss";
 import image from "../assets/profile-niloo.jpg";
 import Button from "../components/Button";
-import pdf from "../assets/frontend_dev_niloofar_cv.pdf"
+import pdf from "../assets/frontend_dev_niloofar_cv.pdf";
+import SocialButton from "../components/SocialButton";
 
 export default function AboutMe() {
   return (
     <div className={style.aboutMe}>
-      <img src={image} className={style.aboutMe__profile}/>
+      <img src={image} className={style.aboutMe__profile} />
       <div className={style.aboutMe__container}>
         <h1 className={style.aboutMe__title}>About Me</h1>
         <div className={style.aboutMe__body}>
@@ -22,10 +23,27 @@ export default function AboutMe() {
             learn about the world around me and to help people by working in the
             field of programming.
           </div>
-
+          {/* icons should add */}
           <Button>
-            <a href={pdf} download className={style.aboutMe__button}>Download CV</a>
+            <a href={pdf} download className={style.aboutMe__button}>
+              Download CV
+            </a>
           </Button>
+          <SocialButton>
+            <a href={"#"} className={style.aboutMe__button}>
+              Li
+            </a>
+          </SocialButton>
+          <SocialButton>
+            <a href={"#"} download className={style.aboutMe__button}>
+              G
+            </a>
+          </SocialButton>
+          <SocialButton>
+            <a href={"#"} download className={style.aboutMe__button}>
+              B
+            </a>
+          </SocialButton>
         </div>
       </div>
     </div>
