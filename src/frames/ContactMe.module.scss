@@ -1,0 +1,14 @@
+.contactMe{
+    font-size: 48px;
+    text-align: center;
+    height: 60vh;
+    padding: 1rem 0rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+
+    &__title{
+        margin-bottom: 30px;
+    }
+}

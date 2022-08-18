@@ -2,6 +2,7 @@ import Intro from "./frames/Intro";
 import AboutMe from "./frames/AboutMe";
 import Resume from "./frames/Resume";
 import Footer from "./components/Footer";
+import ContactMe from "./frames/ContactMe";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Intro />
       <AboutMe />
       <Resume />
+      <ContactMe/>
       <Footer/>
     </>
   );

@@ -1,38 +1,50 @@
 .aboutMe {
   height: 100vh;
-  position: relative;
+  display: flex;
+  justify-content: space-around;
+  padding: 1.5rem;
 
   &__container{
-    width:50%;
-    position: absolute;
-    right:0px;
+  display: flex;
+  flex-direction: column;
   }
   &__description{
     font-size: 24px;
     text-align: justify;
-    width: 80%;
+    width: 50%;
   }
   &__title{
     padding-left: 50px;
 
   }
   &__body{
-    padding-left: 50px;
-    &>button{
-      margin-top: 30px;
-    }
+display: flex;
+justify-content: space-around;
 
   }
   &__profile{
-      width:38%;
+      width:30%;
       height: 80%;
-      position: absolute;
-      left:5%;
-      top:10%;
       border-radius: 100%;
+      margin-top: 103px;
+  }
+  &__social{
+    margin-top: 1rem;
+  }
+  &__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   &__button{
     text-decoration: none;
   
+  }
+  &__footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    align-items: center;
+
   }
 }
