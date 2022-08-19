@@ -1,62 +1,63 @@
+@import "../typed.scss";
 
-@import '../typed.scss';
-
-.intro{
-height: 100vh;
-position: relative;
-display: flex;
-flex-direction: column;
-&__layer{
+.intro {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  &__layer {
     position: absolute;
     height: 100vh;
     width: 50%;
     background-color: #ff3eaa;
     opacity: 0.1;
-}
-&__name{
+  }
+  &__name {
     text-align: center;
     padding-top: 10%;
-}
+  }
 
-&__dropShadow{
+  &__dropShadow {
     position: absolute;
     width: 30%;
     height: 100vh;
     background: rgba(20, 34, 151, 0.3);
     backdrop-filter: blur(20px);
     right: 0;
-
+    z-index: 1;
     @media (min-width: 768px) {
       display: none;
     }
-  
-   & > svg {
+
+    & > svg {
       position: absolute;
       top: 20px;
       right: 20px;
     }
-  
-   & > div {
+
+    & > div {
       position: absolute;
       top: 68px;
       padding-right: 30px;
       right: 0;
     }
+  }
 }
-
+h1 {
+  font-size: 56px;
 }
-h1{
-    font-size: 56px;
+h3 {
+  font-size: 20px;
 }
-h3{
-    font-size: 20px;
+h2 {
+  font-size: 30px;
+  align-items: center;
 }
-h2{
-    font-size: 30px;
-    align-items: center;
-}
-.writing{
-    @include typed("Developer","Computer Science PhD Student", "Technical Writer");
-    color:#ff3eaa
-
+.writing {
+  @include typed(
+    "Developer",
+    "Computer Science PhD Student",
+    "Technical Writer"
+  );
+  color: #ff3eaa;
 }
