@@ -5,15 +5,27 @@
   align-items: center;
   justify-content: space-between;
   padding: 0rem 1rem;
-  &__right{
-      display: flex;
-      flex-direction: row;
+  @media (max-width: 768px) {
+    padding: 1rem 1rem;
   }
-  &__logo{
+
+  &__right {
+    display: flex;
+    flex-direction: row;
+    @media (max-width: 768px) {
+      display: none;
+    }
+  }
+  &__logo {
     width: 80px;
     height: 80px;
     z-index: 1;
     border-radius: 100%;
-    border:0.5px solid #ff3eaa;
+    border: 0.5px solid #ff3eaa;
+
+    @media (max-width: 768px) {
+      width: 40px;
+      height: 40px;
+    }
   }
 }

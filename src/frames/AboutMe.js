@@ -14,7 +14,7 @@ export default function AboutMe() {
     <div className={style.aboutMe} id="about">
       <div className={style.aboutMe__container}>
         <div className={style.aboutMe__body}>
-          <img src={image} className={style.aboutMe__profile} />
+          <img loading="lazy" alt="profile-picture" src={image} className={style.aboutMe__profile} />
           <div className={style.aboutMe__description}>
             <h1 className={style.aboutMe__title}>About Me</h1>
             <p>

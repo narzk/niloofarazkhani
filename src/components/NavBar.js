@@ -15,7 +15,7 @@ export default function NavBar() {
     return (
     <div className={style.NavBar}>
 
-       <img src={logo} className={style.NavBar__logo}/>
+       <img loading="lazy" alt="logo" src={logo} className={style.NavBar__logo}/>
       <ul className={style.NavBar__right}>
         {NavBar.map((Nav) => (
           <NavBarItem item={Nav.text} onClick={Nav.onClick}/>

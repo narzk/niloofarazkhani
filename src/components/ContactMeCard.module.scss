@@ -6,6 +6,9 @@
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
   padding: 10px 0px;
   margin: 10px;
+  @media (max-width: 768px) {
+    width: 100%;
+  }
   &__header{
       width: 100px;
       height: 80px;
