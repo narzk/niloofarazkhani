@@ -1,7 +1,7 @@
 import style from "./NavBarItem.module.scss";
-export default function NavBarItem({ item }) {
+export default function NavBarItem({ item , onClick}) {
   return (
-    <li>
+    <li onClick={onClick}>
       <a>
         <span>{item}</span>
       </a>

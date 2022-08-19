@@ -7,7 +7,7 @@ import style from "./Resume.module.scss";
 export default function Resume() {
   return (
     <div>
-      <div className={style.resume}>
+      <div className={style.resume} id="resume">
         <div className={style.resume__cards}>
           {Education_Experience.map((item) => (
             <>

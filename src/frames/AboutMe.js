@@ -11,16 +11,25 @@ import GitHub from "../components/icons/GitHub";
 
 export default function AboutMe() {
   return (
-    <div className={style.aboutMe}>
+    <div className={style.aboutMe} id="about">
       <div className={style.aboutMe__container}>
         <div className={style.aboutMe__body}>
           <img src={image} className={style.aboutMe__profile} />
           <div className={style.aboutMe__description}>
             <h1 className={style.aboutMe__title}>About Me</h1>
             <p>
-              I like to help.
-              Maybe I am in a wring direction
+              I am a developer with great academic foundation in computer
+              science. I have passion in creating new things with my knowledge
+              of computer, and find optimal sloutions to problems.
             </p>
+            <p>
+              My love is technology, nature, art and learning new languages to
+              find differnt cultures. It is more than 4 years that I found my
+              passion in web development, and I try to learn new things in my
+              field every day. I also write about things that I learn in short
+              articles, Here.
+            </p>
+            <p>I am available in freelancing! Hire me.</p>
           </div>
         </div>
 

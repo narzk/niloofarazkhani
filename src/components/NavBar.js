@@ -3,22 +3,22 @@ import style from "./NavBar.module.scss";
 import logo from "../assets/logo.PNG"
 
 export default function NavBar() {
-  const NAVBAR = [
-    "Home",
-    "About",
-    "Resume",
-    // "Services",
-    // "Projects",
-    // "My Blog",
-    "Contact",
-  ];
-  return (
+
+
+  const NavBar=[
+
+    { text: "Home", onClick: () => window.open("#intro", "_self") },
+    { text: "About", onClick: () => window.open("#about", "_self") },
+    { text: "Resume", onClick: () => window.open("#resume", "_self") },
+    { text: "Contact", onClick: () => window.open("#contact", "_self") },
+  ]
+    return (
     <div className={style.NavBar}>
 
        <img src={logo} className={style.NavBar__logo}/>
       <ul className={style.NavBar__right}>
-        {NAVBAR.map((Nav) => (
-          <NavBarItem item={Nav} />
+        {NavBar.map((Nav) => (
+          <NavBarItem item={Nav.text} onClick={Nav.onClick}/>
         ))}
       </ul>
     </div>
