@@ -17,6 +17,33 @@ flex-direction: column;
     text-align: center;
     padding-top: 10%;
 }
+
+&__dropShadow{
+    position: absolute;
+    width: 30%;
+    height: 100vh;
+    background: rgba(20, 34, 151, 0.3);
+    backdrop-filter: blur(20px);
+    right: 0;
+
+    @media (min-width: 768px) {
+      display: none;
+    }
+  
+   & > svg {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+  
+   & > div {
+      position: absolute;
+      top: 68px;
+      padding-right: 30px;
+      right: 0;
+    }
+}
+
 }
 h1{
     font-size: 56px;

@@ -1,0 +1,15 @@
+.menu{
+    margin-right: 9px;
+  &> div {
+    width: 26px;
+    background-color: #ff3eaa;
+    height: 3px;
+  }
+  &> div + div {
+    margin-top: 5px;
+  }
+
+  @media (min-width: 768px) {
+    display: none;
+  }
+}
