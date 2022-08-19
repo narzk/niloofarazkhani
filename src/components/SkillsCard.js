@@ -20,11 +20,11 @@ export default function SkillsCard({title, value, LastWeekValue, LastMonthValue}
         <div className={style.card__footer}>
           <div className={style.card__lastProgress}>
             <div>{`${LastWeekValue}%`}</div>
-            <div>Last Week</div>
+            <div>Last Week improvement</div>
           </div>
           <div className={style.card__lastProgress}>
             <div>{`${LastMonthValue}%`}</div>
-            <div>Last Month</div>
+            <div>Last Month improvement</div>
           </div>
         </div>
       </div>

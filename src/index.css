@@ -4,6 +4,8 @@
    url("./assets/PatrickHand-Regular.ttf") format("truetype");
   font-weight: bold;
   }
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -13,6 +15,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   font-family: "PatrickHand-Regular";
+
+  @media (min-width: $layout-breakpoint-small) {
+    .hide-extra-small {
+      display: none;
+    }
+  }
 }
 html{
   box-sizing: border-box;
