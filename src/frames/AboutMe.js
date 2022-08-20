@@ -23,14 +23,14 @@ export default function AboutMe() {
           <div className={style.aboutMe__description}>
             <h1 className={style.aboutMe__title}>About Me</h1>
             <p>
-              I am a developer with a strong academic background in computer
-              science. I am passionate about creating new things using my
+              I am a <mark>developer</mark> with a strong academic background in <mark>computer
+              science</mark>. I am passionate about creating new things using my
               knowledge of computers and finding optimal solutions to problems.
             </p>
             <p>
               I love technology, nature, art, and learning new languages to
               explore different cultures. I have been passionate about web
-              development for over 4 years, and I try to learn something new
+              development for <mark>over 4 years</mark>, and I try to learn something new
               every day. My blog also contains short articles about the things I
               learn.
               <a
