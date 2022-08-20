@@ -29,4 +29,24 @@
     align-items: center;
     justify-content: center;
   }
+  &__skill {
+    margin: 0.5rem 0.5rem 0.5rem 0rem;
+    padding: 1rem;
+    border-radius: 5px;
+    min-width: 40px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #FFEDF6;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    @media (max-width: 768px) {
+    padding: 0.5rem;
+    min-width: 20px;
+
+    }
+    &:hover{
+    background-color: #fff;
+
+    }
+  }
 }

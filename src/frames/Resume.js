@@ -22,17 +22,19 @@ export default function Resume() {
               ))}
             </>
           ))}
-              <div className={style.resume__category}>Skills</div>
+              <div className={style.resume__category}>Key Skills</div>
 
           <div className={style.resume__skills}>
-            {skills.map((skill) => (
+            {/* {skills.map((skill) => (
               <SkillsCard
                 title={skill.title}
                 value={skill.value}
                 LastWeekValue={skill.LastWeekValue}
                 LastMonthValue={skill.LastMonthValue}
               />
-            ))}
+            ))} */}
+
+            {skills.map(skill=><div className={style.resume__skill}>{skill}</div>)}
           </div>
         </div>
       </div>

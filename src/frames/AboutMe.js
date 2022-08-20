@@ -123,7 +123,7 @@ export default function AboutMe() {
               target={"_blank"}
               className={style.aboutMe__button}
             >
-              Download CV
+              My Resume
             </a>
           </Button>
         </div>
