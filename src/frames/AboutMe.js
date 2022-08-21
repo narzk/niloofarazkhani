@@ -1,5 +1,5 @@
 import style from "./AboutMe.module.scss";
-import image from "../assets/profile-niloo.jpg";
+import image from "../assets/profile-niloo.webp";
 import Button from "../components/Button";
 import pdf from "../assets/Resume.pdf";
 import SocialButton from "../components/SocialButton";

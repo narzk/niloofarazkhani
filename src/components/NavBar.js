@@ -1,6 +1,6 @@
 import NavBarItem from "./NavBarItem";
 import style from "./NavBar.module.scss";
-import logo from "../assets/logo.PNG"
+import logo from "../assets/logo.webp"
 import HamburgerMenu from "./HamburgerMenu";
 
 export default function NavBar({handleDropShadowOpen,  navItems}) {
