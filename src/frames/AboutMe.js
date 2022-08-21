@@ -14,25 +14,23 @@ export default function AboutMe() {
     <div className={style.aboutMe} id="about">
       <div className={style.aboutMe__container}>
         <div className={style.aboutMe__body}>
-          <img
-            loading="lazy"
-            alt="profile-picture"
-            src={image}
-            className={style.aboutMe__profile}
-          />
+          <div className={style.aboutMe__profile}>
+            <img loading="lazy" alt="profile-picture" src={image} />
+          </div>
           <div className={style.aboutMe__description}>
             <h1 className={style.aboutMe__title}>About Me</h1>
             <p>
-              I am a <mark>developer</mark> with a strong academic background in <mark>computer
-              science</mark>. I am passionate about creating new things using my
-              knowledge of computers and finding optimal solutions to problems.
+              I am a <mark>developer</mark> with a strong academic background in{" "}
+              <mark>computer science</mark>. I am passionate about creating new
+              things using my knowledge of computers and finding optimal
+              solutions to problems.
             </p>
             <p>
               I love technology, nature, art, and learning new languages to
               explore different cultures. I have been passionate about web
-              development for <mark>over 4 years</mark>, and I try to learn something new
-              every day. My blog also contains short articles about the things I
-              learn.
+              development for <mark>over 4 years</mark>, and I try to learn
+              something new every day. My blog also contains short articles
+              about the things I learn.
               <a
                 title="blog"
                 className={style.here}

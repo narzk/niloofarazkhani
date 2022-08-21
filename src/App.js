@@ -4,7 +4,7 @@ import Resume from "./frames/Resume";
 import Footer from "./components/Footer";
 import ContactMe from "./frames/ContactMe";
 import ScrollToTop from "react-scroll-to-top";
-import "./index.css"
+import "./index.css";
 
 function App() {
   return (
@@ -12,9 +12,16 @@ function App() {
       <Intro />
       <AboutMe />
       <Resume />
-      <ContactMe/>
-      <Footer/>
-      <ScrollToTop style={{borderRadius:'100%'}}/>
+      <ContactMe />
+      <Footer />
+      <ScrollToTop
+        style={{
+          borderRadius: "100%",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+        }}
+      />
     </>
   );
 }

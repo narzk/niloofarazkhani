@@ -22,7 +22,7 @@ export default function Resume() {
               ))}
             </>
           ))}
-              <div className={style.resume__category}>Key Skills</div>
+          <div className={style.resume__category}>Key Skills</div>
 
           <div className={style.resume__skills}>
             {/* {skills.map((skill) => (
@@ -34,7 +34,22 @@ export default function Resume() {
               />
             ))} */}
 
-            {skills.map(skill=><div className={style.resume__skill}>{skill}</div>)}
+            {skills.map((skill) => (
+              <div
+                className={style.resume__skill}
+                style={{
+                  backgroundColor: `${
+                    skill.grade === "h"
+                      ? "#f53b99"
+                      : skill.grade === "m"
+                      ? "#fa87c1"
+                      : "#FFEDF6"
+                  }`,
+                }}
+              >
+                {skill.title}
+              </div>
+            ))}
           </div>
         </div>
       </div>

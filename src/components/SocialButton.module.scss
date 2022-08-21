@@ -1,23 +1,24 @@
-.button{
-    height: 40px;
-    width: 40px;
-    background-color: #FFEDF6;
-    border:none;
-    border-radius: 100%;
-    font-weight: bold;
-    font-size: 18px;
-    cursor: pointer;
-    margin-left: 5px;
-    text-align: center;
-    align-items: center;
+.button {
+  height: 40px;
+  width: 40px;
+  background-color: #ffedf6;
+  border: none;
+  border-radius: 100%;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+  margin-left: 5px;
+  text-align: center;
+  align-items: center;
 
-    &:hover{
+  &:hover {
     background-color: #fff;
-    border: 1px solid #FFEDF6;
-
-    }
-    a{
-        padding: 0;
-    }
-    
+    border: 1px solid #ffedf6;
+  }
+  a {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
