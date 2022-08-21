@@ -6,13 +6,14 @@
     font-weight: bold;
     font-size: 18px;
     cursor: pointer;
+    border: 1px solid #ff3eaa;
+
     @media (max-width: 768px) {
   padding: 1rem;
   font-size: 10px;
       }
     &:hover{
     background-color: #fff;
-    border: 1px solid #ff3eaa;
 
     }
     
