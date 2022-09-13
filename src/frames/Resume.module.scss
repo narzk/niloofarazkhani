@@ -13,7 +13,11 @@
     }
   }
   &__category {
-    color: #ff3eaa;
+    color: black;
+    background-color: #ffd3f0;
+    width:fit-content;
+    border-radius: 1rem;
+    padding: 0 0.8rem;
     font-weight: 600;
     font-size: xx-large;
     margin-bottom: 50px;
@@ -28,6 +32,9 @@
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    background-color: #ffd3f0;
+    border-radius: 5px;
+
   }
   &__skill {
     margin: 0.5rem 0.5rem 0.5rem 0rem;

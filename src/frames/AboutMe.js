@@ -20,7 +20,7 @@ export default function AboutMe() {
           <div className={style.aboutMe__description}>
             <h1 className={style.aboutMe__title}>About Me</h1>
             <p>
-              I am a <mark>developer</mark> with a strong academic background in{" "}
+              I am a <mark>front-end developer</mark> with a strong academic background in{" "}
               <mark>computer science</mark>. I am passionate about creating new
               things using my knowledge of computers and finding optimal
               solutions to problems.
@@ -29,17 +29,16 @@ export default function AboutMe() {
               I love technology, nature, art, and learning new languages to
               explore different cultures. I have been passionate about web
               development for <mark>over 4 years</mark>, and I try to learn
-              something new every day. My blog also contains short articles
-              about the things I learn.
+              something new every day. I try to update my{" "}
               <a
                 title="blog"
                 className={style.here}
-                href={"https://niloodeveloper.hashnode.dev/"}
+                href={"https://medium.com/@niloofararazkhani"}
                 target={"_blank"}
               >
-                Here
-              </a>
-              .
+                Medium
+              </a>{" "}
+              every week by writing a new article.
             </p>
             <p>
               I am available in freelancing!{" "}

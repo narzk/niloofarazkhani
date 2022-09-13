@@ -1,6 +1,6 @@
 import style from "./ResumeCard.module.scss";
 
-export default function ResumeCard({ date, subject, place, description }) {
+export default function ResumeCard({ date, subject, place, description, tasks }) {
   return (
     <div className={style.card}>
       <div className={style.card__bullet}></div>
@@ -14,6 +14,8 @@ export default function ResumeCard({ date, subject, place, description }) {
         <div className={style.card__body}>
           <div className={style.card__place}>{place}</div>
           <div className={style.card__description}>{description}</div>
+          <ul className={style.card__tasks}>{tasks.map(task=><li>{task}</li>)}</ul>
+
         </div>
       </div>
     </div>

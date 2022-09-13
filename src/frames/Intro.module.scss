@@ -55,9 +55,11 @@ h2 {
 }
 .writing {
   @include typed(
-    "Developer",
-    "PhD Candidate",
+    "Fornt-End Developer",
+    "Software Engineer",
     "Technical Writer"
   );
-  color: #ff3eaa;
+  color: black;
+  text-decoration:underline;
+
 }

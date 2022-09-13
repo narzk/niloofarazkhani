@@ -18,6 +18,7 @@ export default function Resume() {
                   subject={el.subject}
                   place={el.place}
                   description={el.description}
+                  tasks={el.tasks}
                 />
               ))}
             </>
@@ -37,15 +38,7 @@ export default function Resume() {
             {skills.map((skill) => (
               <div
                 className={style.resume__skill}
-                style={{
-                  backgroundColor: `${
-                    skill.grade === "h"
-                      ? "#f53b99"
-                      : skill.grade === "m"
-                      ? "#fa87c1"
-                      : "#FFEDF6"
-                  }`,
-                }}
+            
               >
                 {skill.title}
               </div>
